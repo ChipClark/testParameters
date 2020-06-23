@@ -1,0 +1,22 @@
+.box {
+    width: 100px;
+    display: block;
+}
+
+.response {
+    padding-top: 50px;
+    width: 100%;
+    border: 1px;
+    display: block;
+}
+
+.key {
+    width: 20px;
+    margin-left: 3px;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.clear {
+    float: right;
+}
