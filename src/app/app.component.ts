@@ -35,8 +35,6 @@ export class AppComponent {
       const queryStrings: any = this.route.queryParamMap;
       this.executeQueryParams(queryStrings.source.value).then( results => {
       });
-      console.log("about to pauseAMoment()");
-      this.pauseAMoment();
     });
     console.log("end of accessParameters(); about to pauseAMoment()");
     await this.pauseAMoment();
@@ -78,10 +76,10 @@ export class AppComponent {
           break;
       }
     }
-    console.log("in executeQueryParams(); about to pauseAMoment()");
-    console.log("duration to wait is " + this.duration);
-    await this.pauseAMoment();
-    console.log("end of executeQueryParams()");
+    // console.log("in executeQueryParams(); about to pauseAMoment()");
+    // console.log("duration to wait is " + this.duration);
+    // await this.pauseAMoment();
+    // console.log("end of executeQueryParams()");
     return;
   }
 
