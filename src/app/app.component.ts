@@ -71,7 +71,6 @@ export class AppComponent {
     for (const q of queries) {
       switch (q[0]) {
         case 'duration':
-          console.log('in switch');
           this.duration = +q[1];
           break;
       }
